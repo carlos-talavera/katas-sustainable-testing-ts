@@ -1,0 +1,3 @@
+# Sustainable Testing Katas with TypeScript
+
+This repository contains the solutions to the katas of the course [Testing Sostenible con TypeScript](https://academy.softwarecrafters.io/p/curso). This course dives into the subtleties of creating great software using a test-based approach, which is known as Test-Driven Development or TDD. Every kata represents an exercise that helps the student to practice and sharpen their analytical skills by thinking before doing. This is the purpose of testing. To create a clearer picture of the problem by turning complex functionalities into simple and expressive tests that tell the story of the business (the _what_), and the way the project manages to accomplish the established objectives (the _how_).
