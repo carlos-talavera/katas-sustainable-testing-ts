@@ -63,4 +63,11 @@ describe("factorial", () => {
 
         expect(result).toThrowError(expected);
     });
+
+    it("should throw an error for non-integer numbers", () => {
+        const result = () => factorial(1.5);
+        const expected = /integer/i;
+
+        expect(result).toThrowError(expected);
+    });
 });

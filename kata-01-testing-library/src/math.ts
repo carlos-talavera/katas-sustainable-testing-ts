@@ -16,6 +16,10 @@ export function factorial(number: number) {
         throw new Error("Negative numbers are not supported");
     }
 
+    if (!Number.isInteger(number)) {
+        throw new Error("Number must be an integer");
+    }
+
     if (number === 0 || number === 1) {
         return 1;
     }
