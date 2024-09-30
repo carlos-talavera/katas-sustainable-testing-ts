@@ -9,6 +9,13 @@ describe("divide", () => {
        expect(result).toThrowError(expected);
     });
 
+    it("should return the number itself if there's only one element", () => {
+        const result = divide([3]);
+        const expected = 3;
+
+        expect(result).toBe(expected);
+    });
+
     it("should divide numbers correctly", () => {
         const result = divide([15, 3, 5]);
         const expected = 1;
