@@ -1,11 +1,3 @@
-// export function sumNumbers(string: string) {
-//     if (string) {
-//         return string.split(',').reduce((prev, curr) => prev + Number(curr), 0);
-//     }
-//
-//     return 0;
-// }
-
 const DEFAULT_SEPARATOR = ',';
 const CUSTOM_SEPARATOR_REGEX = /^\/\/(.)\//;
 
